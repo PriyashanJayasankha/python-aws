@@ -1,0 +1,39 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-2",
+      "eventTime": "2020-11-29T17:13:48.762Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAXKSSNL63H2UTEDJON"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "37.120.208.139"
+      },
+      "responseElements": {
+        "x-amz-request-id": "5J8V0T1HCP1KCWEJ",
+        "x-amz-id-2": "6/ycpmBLfhQSvBIvepXbZS2PK9R4pMJYXmTIM5ADIwb1Zip6hi+1+TgT6+27NapvUL24wDl5DW8r5ok9LBA/wPOXcuPXfMwfFcBfzW3URiU="
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "unzipOnUpload",
+        "bucket": {
+          "name": "priyashan-storage-bucket",
+          "ownerIdentity": {
+            "principalId": "AV2JW2ECH3EQL"
+          },
+          "arn": "arn:aws:s3:::priyashan-storage-bucket"
+        },
+        "object": {
+          "key": "zip/test-file.zip",
+          "size": 418,
+          "eTag": "327f3fbd1949b230fc2ee19c74bfdecc",
+          "versionId": "pO5FVCvFqZX00WzQxJCS3mOSNdxcPkly",
+          "sequencer": "005FC3D6CF1623AF8F"
+        }
+      }
+    }
+  ]
+}
